@@ -1,0 +1,37 @@
+# dependências e builds
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# ambiente
+.env
+.env.*
+!.env.example
+
+# capacitor / mobile
+apps/app-oficina/android/app/build/
+apps/app-oficina/ios/App/Pods/
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Material de IA NUNCA entra neste repositório (vive em ../ia/)
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.claude/
+.agents/
+.agent/
+.codex/
+.gemini/
+.mcp.json
+opencode.json
+.ai/
